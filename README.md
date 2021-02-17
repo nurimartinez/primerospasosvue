@@ -16,7 +16,7 @@ Primeros ejercicios haciendo uso del framework Vue 3 de JavaScript y empleando l
 Descripción
 -------------
 * Primer ejercicio: listado para agregar nuevos artículos, borrarlos de la lista y modificar la cantidad.
-* Segundo ejercicio: Uso de APIs para devolver la previsión meteorológica del municipio elegido dentro de una provincia.
+* Segundo ejercicio: Consulta de APIs para devolver la previsión meteorológica del municipio seleccionado.
 
 Características
 -------------
