@@ -28,6 +28,7 @@ export default {
       .then(data => data.forEach(element => provincias.push(element)))
 
     const seleccionado = () => {
+      municipios.splice(0)
       fetch(`https://www.el-tiempo.net/api/json/v2/provincias/${provincia.value}/municipios`)
         .then(res => res.json())
         .then(data => data.municipios.forEach(item => municipios.push(item)))
@@ -56,15 +57,12 @@ export default {
 
 <style lang="scss" scoped>
   .container {
-    width: 80%;
+    width: 70%;
     height: 350px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(179, 177, 177);
-    border-radius: 7px;
-    padding: 20px;
 
     select {
       width: 50%;
@@ -73,7 +71,7 @@ export default {
     }
 
     iframe {
-      width: 85%;
+      width: 95%;
       height: 300px;
       border: none;
       overflow:hidden;
