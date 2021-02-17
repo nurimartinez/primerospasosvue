@@ -1,24 +1,30 @@
-# tablaproductos
+# Primeros Pasos en Vue.js
 
-## Project setup
-```
-npm install
-```
+<p align="center">
+  <img src="src/assets/logo.png" width="150">
+</p>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Introducción
+-------------
+Primeros ejercicios haciendo uso del framework Vue 3 de JavaScript y empleando la Composition API. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+<p align="center">
+  <img src="public/demo.png" width="800">
+</p>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Descripción
+-------------
+* Primer ejercicio: listado para agregar nuevos artículos, borrarlos de la lista y modificar la cantidad.
+* Segundo ejercicio: Uso de APIs para devolver la previsión meteorológica del municipio elegido dentro de una provincia.
+
+Características
+-------------
+* Vue 3
+* Composition API
+
+Setup
+-------------
+* Instalar los módulos: npm install
+* Arrancar la aplicación: npm run serve
+
